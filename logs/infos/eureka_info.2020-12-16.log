@@ -1,0 +1,429 @@
+2020-12-16 20:25:32.968- INFO org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2020-12-16 20:25:32.968- INFO com.course.EurekaApplication Starting EurekaApplication using Java 15.0.1 on liuwenjundeMacBook-Pro.local with PID 1685 (/Users/liuwenjun/IdeaProjects/course/eureka/target/classes started by liuwenjun in /Users/liuwenjun/IdeaProjects/course) 
+2020-12-16 20:25:32.970- INFO com.course.EurekaApplication No active profile set, falling back to default profiles: default 
+2020-12-16 20:25:33.786- INFO o.springframework.cloud.context.scope.GenericScope BeanFactory id=d65afc89-83b9-3be2-9d70-1d90bfd0c9b2 
+2020-12-16 20:25:34.008- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8761 (http) 
+2020-12-16 20:25:34.018- INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8761"] 
+2020-12-16 20:25:34.019- INFO org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2020-12-16 20:25:34.019- INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2020-12-16 20:25:34.114- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2020-12-16 20:25:34.114- INFO o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1102 ms 
+2020-12-16 20:25:34.544- INFO c.s.j.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+2020-12-16 20:25:34.588- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 20:25:34.588- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 20:25:34.743- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 20:25:34.743- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 20:25:35.157- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2020-12-16 20:25:35.562- INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey 
+2020-12-16 20:25:35.620- WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath. 
+2020-12-16 20:25:35.634- INFO o.s.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING 
+2020-12-16 20:25:35.663- INFO com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1 
+2020-12-16 20:25:35.664- INFO com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data. 
+2020-12-16 20:25:35.669- INFO com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1608121535668 with initial instances count: 0 
+2020-12-16 20:25:35.694- INFO com.netflix.eureka.DefaultEurekaServerContext Initializing ... 
+2020-12-16 20:25:35.696- INFO com.netflix.eureka.cluster.PeerEurekaNodes Adding new peer nodes [http://localhost:8761/eureka/] 
+2020-12-16 20:25:35.846- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 20:25:35.846- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 20:25:35.846- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 20:25:35.846- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 20:25:35.977- INFO com.netflix.eureka.cluster.PeerEurekaNodes Replica node URL:  http://localhost:8761/eureka/ 
+2020-12-16 20:25:35.996- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: [] 
+2020-12-16 20:25:36.001- INFO com.netflix.eureka.DefaultEurekaServerContext Initialized 
+2020-12-16 20:25:36.006- INFO o.s.b.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator' 
+2020-12-16 20:25:36.061- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Registering application EUREKA with eureka with status UP 
+2020-12-16 20:25:36.063- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration.. 
+2020-12-16 20:25:36.063- INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8761"] 
+2020-12-16 20:25:36.072- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap isAws returned false 
+2020-12-16 20:25:36.072- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Initialized server context 
+2020-12-16 20:25:36.072- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node 
+2020-12-16 20:25:36.073- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1 
+2020-12-16 20:25:36.073- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP 
+2020-12-16 20:25:36.089- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8761 (http) with context path '' 
+2020-12-16 20:25:36.090- INFO o.s.c.n.e.s.EurekaAutoServiceRegistration Updating port to 8761 
+2020-12-16 20:25:36.115- INFO com.course.EurekaApplication Started EurekaApplication in 3.447 seconds (JVM running for 4.18) 
+2020-12-16 20:25:36.116- INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration Started Eureka Server 
+2020-12-16 20:25:36.121- INFO com.course.EurekaApplication 启动成功！！ 
+2020-12-16 20:25:36.121- INFO com.course.EurekaApplication eureka地址为：	http://127.0.0.1:8761 
+2020-12-16 20:25:36.259- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-12-16 20:25:36.259- INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet' 
+2020-12-16 20:25:36.260- INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms 
+2020-12-16 20:26:36.086- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:27:36.090- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 20:28:36.090- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:29:36.091- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 20:30:36.095- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 20:31:09.584- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Unregistering application EUREKA with eureka with status DOWN 
+2020-12-16 20:31:09.658- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Shutting down Eureka Server.. 
+2020-12-16 20:31:09.695- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 20:31:09.818- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 20:31:09.818- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Eureka Service is now shutdown... 
+2020-12-16 20:31:09.818- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 20:31:09.892- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 20:31:09.928- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-12-16 20:31:09.935- INFO com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ... 
+2020-12-16 20:31:09.947- INFO com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient 
+2020-12-16 20:31:21.388- INFO org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2020-12-16 20:31:21.389- INFO com.course.EurekaApplication Starting EurekaApplication using Java 15.0.1 on liuwenjundeMacBook-Pro.local with PID 1701 (/Users/liuwenjun/IdeaProjects/course/eureka/target/classes started by liuwenjun in /Users/liuwenjun/IdeaProjects/course) 
+2020-12-16 20:31:21.391- INFO com.course.EurekaApplication No active profile set, falling back to default profiles: default 
+2020-12-16 20:31:22.184- INFO o.springframework.cloud.context.scope.GenericScope BeanFactory id=d65afc89-83b9-3be2-9d70-1d90bfd0c9b2 
+2020-12-16 20:31:22.389- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8761 (http) 
+2020-12-16 20:31:22.402- INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8761"] 
+2020-12-16 20:31:22.402- INFO org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2020-12-16 20:31:22.402- INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2020-12-16 20:31:22.484- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2020-12-16 20:31:22.484- INFO o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1055 ms 
+2020-12-16 20:31:22.990- INFO c.s.j.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+2020-12-16 20:31:23.037- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 20:31:23.037- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 20:31:23.157- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 20:31:23.157- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 20:31:23.530- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2020-12-16 20:31:23.890- INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey 
+2020-12-16 20:31:23.934- WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath. 
+2020-12-16 20:31:23.950- INFO o.s.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING 
+2020-12-16 20:31:23.978- INFO com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1 
+2020-12-16 20:31:23.978- INFO com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data. 
+2020-12-16 20:31:23.984- INFO com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1608121883984 with initial instances count: 0 
+2020-12-16 20:31:24.007- INFO com.netflix.eureka.DefaultEurekaServerContext Initializing ... 
+2020-12-16 20:31:24.009- INFO com.netflix.eureka.cluster.PeerEurekaNodes Adding new peer nodes [http://localhost:8761/eureka/] 
+2020-12-16 20:31:24.160- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 20:31:24.160- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 20:31:24.160- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 20:31:24.160- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 20:31:24.281- INFO com.netflix.eureka.cluster.PeerEurekaNodes Replica node URL:  http://localhost:8761/eureka/ 
+2020-12-16 20:31:24.301- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: [] 
+2020-12-16 20:31:24.306- INFO com.netflix.eureka.DefaultEurekaServerContext Initialized 
+2020-12-16 20:31:24.311- INFO o.s.b.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator' 
+2020-12-16 20:31:24.357- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Registering application EUREKA with eureka with status UP 
+2020-12-16 20:31:24.359- INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8761"] 
+2020-12-16 20:31:24.359- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration.. 
+2020-12-16 20:31:24.382- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap isAws returned false 
+2020-12-16 20:31:24.383- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Initialized server context 
+2020-12-16 20:31:24.383- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node 
+2020-12-16 20:31:24.384- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1 
+2020-12-16 20:31:24.386- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP 
+2020-12-16 20:31:24.440- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8761 (http) with context path '' 
+2020-12-16 20:31:24.446- INFO o.s.c.n.e.s.EurekaAutoServiceRegistration Updating port to 8761 
+2020-12-16 20:31:24.493- INFO com.course.EurekaApplication Started EurekaApplication in 3.447 seconds (JVM running for 4.216) 
+2020-12-16 20:31:24.493- INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration Started Eureka Server 
+2020-12-16 20:31:24.500- INFO com.course.EurekaApplication 启动成功！！ 
+2020-12-16 20:31:24.500- INFO com.course.EurekaApplication eureka地址为：	http://127.0.0.1:8761 
+2020-12-16 20:31:24.664- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-12-16 20:31:24.665- INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet' 
+2020-12-16 20:31:24.674- INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms 
+2020-12-16 20:32:20.126- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:32:20.734- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:32:24.394- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:33:22.895- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 20:33:23.407- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 20:33:24.393- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:33:25.986- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 20:33:26.504- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 20:33:26.505- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 20:33:26.507- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 20:33:26.507- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 20:34:24.393- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:35:24.399- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 20:35:59.794- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:36:00.318- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:36:24.403- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:36:59.221- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 20:36:59.736- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 20:37:02.264- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 20:37:02.782- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 20:37:02.782- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 20:37:02.792- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 20:37:02.794- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 20:37:09.257- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:37:09.768- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:37:24.405- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 20:37:51.916- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 20:37:52.431- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 20:37:54.958- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 20:37:55.474- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 20:37:55.474- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 20:37:55.476- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 20:37:55.476- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 20:38:00.870- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:38:01.387- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:38:24.407- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 13ms 
+2020-12-16 20:39:24.409- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 20:40:24.417- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 20:41:24.421- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 20:42:24.424- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 20:43:24.428- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:44:24.429- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 20:45:20.954- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 20:45:21.465- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 20:45:23.994- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 20:45:24.436- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 20:45:24.505- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 20:45:24.505- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 20:45:24.506- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 20:45:24.506- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 20:45:30.021- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:45:30.531- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:46:21.113- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 20:46:21.624- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 20:46:24.147- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 20:46:24.303- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 1 
+2020-12-16 20:46:24.439- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:46:24.662- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 20:46:24.662- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 20:46:24.664- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 20:46:24.664- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 20:46:57.291- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 20:46:57.797- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 20:47:24.443- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:48:24.443- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 20:48:31.809- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=false) 
+2020-12-16 20:48:32.319- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=true) 
+2020-12-16 20:49:24.447- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:50:24.448- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 20:51:24.452- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:52:24.454- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 20:53:24.454- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 20:54:24.473- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:55:24.479- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 20:56:24.483- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 20:57:24.487- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 20:58:24.488- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 20:59:24.497- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:00:24.499- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 21:01:14.752- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:01:15.260- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:01:17.794- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:01:18.307- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:01:18.308- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:01:18.309- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:01:18.309- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:01:24.313- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 3 
+2020-12-16 21:01:24.499- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:01:50.423- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:01:50.936- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:02:24.499- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:03:24.503- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:04:24.515- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:04:50.039- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:04:50.558- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:04:53.072- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:04:53.577- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:04:53.577- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:04:53.579- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:04:53.579- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:04:59.351- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:04:59.858- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:05:24.515- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:05:47.868- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=false) 
+2020-12-16 21:05:48.382- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=true) 
+2020-12-16 21:05:50.356- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:05:50.870- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:05:50.949- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance SYSTEM/192.168.1.103:system:9001 (replication=false) 
+2020-12-16 21:05:51.459- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.1.103:system:9001 
+2020-12-16 21:05:51.460- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): SYSTEM - 192.168.1.103:system:9001 
+2020-12-16 21:05:51.461- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task SYSTEM/192.168.1.103:system:9001:Cancel@localhost failed with response code 404 
+2020-12-16 21:05:51.461- WARN com.netflix.eureka.cluster.PeerEurekaNode SYSTEM/192.168.1.103:system:9001:Cancel@localhost: missing entry. 
+2020-12-16 21:05:53.390- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:05:53.898- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:05:53.899- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:05:53.900- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:05:53.900- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:05:59.752- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:06:00.258- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:06:24.518- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:07:24.523- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:07:28.958- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:07:29.471- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:07:32.001- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:07:32.516- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:07:32.516- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:07:32.517- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:07:32.517- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:07:39.785- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:07:40.292- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:07:52.206- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:07:52.726- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:07:55.255- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:07:55.770- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:07:55.771- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:07:55.773- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:07:55.773- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:08:24.532- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:09:24.556- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:10:24.561- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:11:24.565- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:11:59.690- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=false) 
+2020-12-16 21:12:00.200- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=true) 
+2020-12-16 21:12:24.565- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:13:24.576- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:14:24.576- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:15:24.578- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:15:38.295- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:15:38.801- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:16:24.351- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 5 
+2020-12-16 21:16:24.581- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 21:16:33.148- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=false) 
+2020-12-16 21:16:33.665- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=true) 
+2020-12-16 21:16:36.286- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance SYSTEM/192.168.1.103:system:9001 (replication=false) 
+2020-12-16 21:16:36.804- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.1.103:system:9001 
+2020-12-16 21:16:36.806- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): SYSTEM - 192.168.1.103:system:9001 
+2020-12-16 21:16:36.814- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task SYSTEM/192.168.1.103:system:9001:Cancel@localhost failed with response code 404 
+2020-12-16 21:16:36.816- WARN com.netflix.eureka.cluster.PeerEurekaNode SYSTEM/192.168.1.103:system:9001:Cancel@localhost: missing entry. 
+2020-12-16 21:17:24.585- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:17:42.540- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=false) 
+2020-12-16 21:17:43.050- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status UP (replication=true) 
+2020-12-16 21:17:51.675- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=false) 
+2020-12-16 21:17:52.183- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance SYSTEM/192.168.1.103:system:9001 with status DOWN (replication=true) 
+2020-12-16 21:17:54.717- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance SYSTEM/192.168.1.103:system:9001 (replication=false) 
+2020-12-16 21:17:55.221- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.1.103:system:9001 
+2020-12-16 21:17:55.221- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): SYSTEM - 192.168.1.103:system:9001 
+2020-12-16 21:17:55.222- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task SYSTEM/192.168.1.103:system:9001:Cancel@localhost failed with response code 404 
+2020-12-16 21:17:55.222- WARN com.netflix.eureka.cluster.PeerEurekaNode SYSTEM/192.168.1.103:system:9001:Cancel@localhost: missing entry. 
+2020-12-16 21:17:55.533- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:17:56.048- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:17:58.578- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:17:59.092- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:17:59.092- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:17:59.094- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:17:59.094- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:18:04.425- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:18:04.933- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:18:23.384- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:18:23.897- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:18:24.592- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:18:26.414- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:18:26.925- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:18:26.925- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:18:26.926- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:18:26.926- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:18:39.344- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:18:39.854- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:19:19.626- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:19:20.140- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:19:22.717- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Cancelled instance BUSINESS/192.168.1.103:business:9002 (replication=false) 
+2020-12-16 21:19:23.231- WARN c.netflix.eureka.registry.AbstractInstanceRegistry DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.103:business:9002 
+2020-12-16 21:19:23.231- INFO com.netflix.eureka.resources.InstanceResource Not Found (Cancel): BUSINESS - 192.168.1.103:business:9002 
+2020-12-16 21:19:23.232- WARN com.netflix.eureka.cluster.ReplicationTask The replication of task BUSINESS/192.168.1.103:business:9002:Cancel@localhost failed with response code 404 
+2020-12-16 21:19:23.233- WARN com.netflix.eureka.cluster.PeerEurekaNode BUSINESS/192.168.1.103:business:9002:Cancel@localhost: missing entry. 
+2020-12-16 21:19:24.597- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:20:24.599- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:21:24.603- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:22:24.603- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:23:24.614- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:24:24.614- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:25:24.618- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:26:24.621- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 21:27:24.629- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:28:24.634- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:29:24.638- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:30:24.640- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 21:31:24.367- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 1 
+2020-12-16 21:31:24.643- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:32:24.647- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 21:33:24.660- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 7ms 
+2020-12-16 21:34:24.667- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 7ms 
+2020-12-16 21:35:09.937- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:35:10.444- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:35:24.671- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:36:24.675- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:36:51.757- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=false) 
+2020-12-16 21:36:52.271- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status DOWN (replication=true) 
+2020-12-16 21:36:53.676- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Unregistering application EUREKA with eureka with status DOWN 
+2020-12-16 21:36:53.723- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Shutting down Eureka Server.. 
+2020-12-16 21:36:53.755- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 21:36:53.760- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+2020-12-16 21:36:53.767- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+2020-12-16 21:36:53.770- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+2020-12-16 21:36:53.773- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+2020-12-16 21:36:53.867- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 21:36:53.867- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Eureka Service is now shutdown... 
+2020-12-16 21:36:53.868- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 21:36:54.029- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 21:36:54.084- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-12-16 21:36:54.087- INFO com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ... 
+2020-12-16 21:36:54.094- INFO com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient 
+2020-12-16 21:50:58.739- INFO com.course.EurekaApplication Starting EurekaApplication using Java 15.0.1 on liuwenjundeMacBook-Pro.local with PID 1946 (/Users/liuwenjun/IdeaProjects/course/eureka/target/classes started by liuwenjun in /Users/liuwenjun/IdeaProjects/course) 
+2020-12-16 21:50:58.741- INFO com.course.EurekaApplication No active profile set, falling back to default profiles: default 
+2020-12-16 21:50:58.741- INFO org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2020-12-16 21:50:59.500- INFO o.springframework.cloud.context.scope.GenericScope BeanFactory id=d65afc89-83b9-3be2-9d70-1d90bfd0c9b2 
+2020-12-16 21:50:59.703- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8761 (http) 
+2020-12-16 21:50:59.713- INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8761"] 
+2020-12-16 21:50:59.714- INFO org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2020-12-16 21:50:59.714- INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2020-12-16 21:50:59.804- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2020-12-16 21:50:59.804- INFO o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1030 ms 
+2020-12-16 21:51:00.203- INFO c.s.j.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM' 
+2020-12-16 21:51:00.245- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 21:51:00.245- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 21:51:00.348- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 21:51:00.348- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 21:51:00.705- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2020-12-16 21:51:01.079- INFO o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey 
+2020-12-16 21:51:01.120- WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath. 
+2020-12-16 21:51:01.130- INFO o.s.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING 
+2020-12-16 21:51:01.150- INFO com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1 
+2020-12-16 21:51:01.150- INFO com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data. 
+2020-12-16 21:51:01.156- INFO com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1608126661156 with initial instances count: 0 
+2020-12-16 21:51:01.181- INFO com.netflix.eureka.DefaultEurekaServerContext Initializing ... 
+2020-12-16 21:51:01.183- INFO com.netflix.eureka.cluster.PeerEurekaNodes Adding new peer nodes [http://localhost:8761/eureka/] 
+2020-12-16 21:51:01.363- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson 
+2020-12-16 21:51:01.366- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson 
+2020-12-16 21:51:01.366- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml 
+2020-12-16 21:51:01.366- INFO c.n.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml 
+2020-12-16 21:51:01.498- INFO com.netflix.eureka.cluster.PeerEurekaNodes Replica node URL:  http://localhost:8761/eureka/ 
+2020-12-16 21:51:01.517- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: [] 
+2020-12-16 21:51:01.522- INFO com.netflix.eureka.DefaultEurekaServerContext Initialized 
+2020-12-16 21:51:01.527- INFO o.s.b.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator' 
+2020-12-16 21:51:01.583- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Registering application EUREKA with eureka with status UP 
+2020-12-16 21:51:01.585- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration.. 
+2020-12-16 21:51:01.585- INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8761"] 
+2020-12-16 21:51:01.597- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap isAws returned false 
+2020-12-16 21:51:01.597- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Initialized server context 
+2020-12-16 21:51:01.597- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node 
+2020-12-16 21:51:01.597- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1 
+2020-12-16 21:51:01.597- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP 
+2020-12-16 21:51:01.611- INFO o.s.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8761 (http) with context path '' 
+2020-12-16 21:51:01.612- INFO o.s.c.n.e.s.EurekaAutoServiceRegistration Updating port to 8761 
+2020-12-16 21:51:01.636- INFO com.course.EurekaApplication Started EurekaApplication in 3.165 seconds (JVM running for 3.869) 
+2020-12-16 21:51:01.638- INFO o.s.c.n.e.s.EurekaServerInitializerConfiguration Started Eureka Server 
+2020-12-16 21:51:01.644- INFO com.course.EurekaApplication 启动成功！！ 
+2020-12-16 21:51:01.645- INFO com.course.EurekaApplication eureka地址为：	http://127.0.0.1:8761 
+2020-12-16 21:51:02.028- INFO o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-12-16 21:51:02.028- INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet' 
+2020-12-16 21:51:02.029- INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms 
+2020-12-16 21:52:01.607- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 21:53:01.611- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 21:54:01.611- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 21:55:01.611- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 21:55:08.093- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=false) 
+2020-12-16 21:55:08.724- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Registered instance BUSINESS/192.168.1.103:business:9002 with status UP (replication=true) 
+2020-12-16 21:56:01.612- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms 
+2020-12-16 21:57:01.613- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 21:58:01.617- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 21:59:01.621- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 22:00:01.625- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 22:01:01.643- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 22:02:01.648- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 22:03:01.651- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms 
+2020-12-16 22:04:01.651- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 22:05:01.655- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 22:06:01.537- INFO c.n.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 3 
+2020-12-16 22:06:01.659- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 22:07:01.665- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 4ms 
+2020-12-16 22:08:01.674- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms 
+2020-12-16 22:09:01.679- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 5ms 
+2020-12-16 22:10:01.678- INFO c.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms 
+2020-12-16 22:10:43.268- INFO o.s.c.n.e.serviceregistry.EurekaServiceRegistry Unregistering application EUREKA with eureka with status DOWN 
+2020-12-16 22:10:43.314- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Shutting down Eureka Server.. 
+2020-12-16 22:10:43.346- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 22:10:43.351- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+2020-12-16 22:10:43.359- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+2020-12-16 22:10:43.363- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again. 
+2020-12-16 22:10:43.366- INFO com.netflix.servo.monitor.StatsMonitor Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again. 
+2020-12-16 22:10:43.485- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 22:10:43.485- INFO o.s.c.netflix.eureka.server.EurekaServerBootstrap Eureka Service is now shutdown... 
+2020-12-16 22:10:43.486- INFO com.netflix.eureka.DefaultEurekaServerContext Shutting down ... 
+2020-12-16 22:10:43.561- INFO com.netflix.eureka.DefaultEurekaServerContext Shut down 
+2020-12-16 22:10:43.605- INFO o.s.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-12-16 22:10:43.609- INFO com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ... 
+2020-12-16 22:10:43.615- INFO com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient 
